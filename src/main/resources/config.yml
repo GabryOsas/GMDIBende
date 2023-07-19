@@ -1,0 +1,47 @@
+#                                                                              ▄▄
+#  ▄▄█▀▀▀█▄█▀████▄     ▄███▀███▀▀▀██▄ ▀████▀███▀▀▀██▄                        ▀███
+#▄██▀     ▀█  ████    ████   ██    ▀██▄ ██   ██    ██                          ██
+#██▀       ▀  █ ██   ▄█ ██   ██     ▀██ ██   ██    ██ ▄▄█▀██▀████████▄    ▄█▀▀███   ▄▄█▀██
+#██           █  ██  █▀ ██   ██      ██ ██   ██▀▀▀█▄▄▄█▀   ██ ██    ██  ▄██    ██  ▄█▀   ██
+#██▄    ▀████ █  ██▄█▀  ██   ██     ▄██ ██   ██    ▀███▀▀▀▀▀▀ ██    ██  ███    ██  ██▀▀▀▀▀▀
+#▀██▄     ██  █  ▀██▀   ██   ██    ▄██▀ ██   ██    ▄███▄    ▄ ██    ██  ▀██    ██  ██▄    ▄
+#  ▀▀███████▄███▄ ▀▀  ▄████▄████████▀ ▄████▄████████  ▀█████▀████  ████▄ ▀████▀███▄ ▀█████▀
+#
+#Plugin sviluppato da @GabryOsas / GMDIDevelopment
+#
+Settings:
+  Prefix: "&a&lBENDE &8| "
+  Credits: true
+  Cooldown-message-type: TITLE
+  Disable-move: true
+Bandages:
+  default:
+    Time: 5
+    Permission-use: "none"
+    Item-amount: 1
+    Item-name: "&fBenda"
+    Item-type: PAPER
+    Item-model-data: 0
+    Health: 5
+    Hunger: 1
+    Item-lore:
+      - "&7Click destro per usarla!"
+      - "&bPlugin sviluppato da &e@GabryOsas / @GMDIDevelopment"
+Messages:
+  Help-message:
+    - "&a&lBENDE"
+    - " §8| §6/benda give (nome benda)"
+    - " §8| §6/benda reload"
+  Title-message: "&a&l%time%"
+  Subtitle-message: "&7Non ti muovere!"
+  Title-failed-message: "&c&lTi sei mosso!"
+  Subtitle-failed-message: "&7Operazione annullata!"
+  Action-bar-message: "&a%time% &7Non ti muovere!"
+  Action-bar-failed-message: "&cOperazione fallita!"
+  Use-message: "%prefix% &aHai usato con successo la benda!"
+  No-permission-message: "%prefix% &cNon hai abbastanza permessi!"
+  Give-bandage-message: "%prefix% &aBenda &e%name% &agivvata con successo!"
+  No-exist-bandage-message: "%prefix% &cBenda &e%name% &cnon trovata!"
+  Reload-message: "%prefix% &aFile di configurazione ricaricato con successo!"
+Permission:
+  Give-permission: "benda.admin"

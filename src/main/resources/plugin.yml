@@ -1,0 +1,8 @@
+name: GMDIBende
+version: '${project.version}'
+main: me.gabryosas.gmdibende.GMDIBende
+api-version: '1.16'
+commands:
+  benda:
+    aliases:
+      - bende
