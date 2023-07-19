@@ -1,7 +1,7 @@
 # GMDIBende README.md
 *Plugin utile per la creazione di bende in gioco.*
 
-# 1. Lista Type TITLE
+# 1. Lista Type per i messaggi
 ```YAML
 TITLE
 ACTION-BAR
