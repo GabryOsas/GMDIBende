@@ -6,7 +6,7 @@
 TITLE
 ACTION-BAR
 ```
-# 2. Spiegazione permissi
+# 2. Spiegazione permessi
 ```YAML
 Bandages:
   default:
